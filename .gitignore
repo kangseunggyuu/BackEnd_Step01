@@ -1,0 +1,16 @@
+/Servers/
+/.metadata/
+/.recommenders/
+.settings/
+bin/
+build/
+temp/
+Debug/
+Release/
+.classpath
+*.class
+*.war
+*.log
+*.out
+*.exe
+MANIFEST.MF
