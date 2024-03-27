@@ -25,7 +25,7 @@ public class CalculatorServlet extends GenericServlet {
 		
 		// 한글이 깨지지 않도록 설정
 		// 서블릿이 최초 규격이 정해진 시기의 문자셋이 UTF-8이 아니어서
-		// 이렇게 정해줘야 html이 보내는 데이터를 UTF-8로 해석해서 깨지지 않는다.
+		// 이렇게 정해줘야 우리가 보내는 데이터를 UTF-8로 해석해서 깨지지 않는다.
 		response.setContentType("text/html;charset=UTF-8");
 		
 		// 브라우저로 응답을 전송

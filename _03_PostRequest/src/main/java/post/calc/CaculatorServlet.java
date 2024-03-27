@@ -1,4 +1,4 @@
-package _02_GetRequest;
+package post.calc;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -25,7 +25,7 @@ public class CaculatorServlet extends HttpServlet {
 	}
 	
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("CaculatorServlet - doGet......");
 		// 브라우저가 보낸 파라미터를 꺼낸다.
 		String op = req.getParameter("op");
