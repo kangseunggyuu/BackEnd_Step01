@@ -73,7 +73,7 @@ public class MemberAddServlet extends HttpServlet{
 			resp.setContentType("text/html;charset=UTF-8");
 			PrintWriter out = resp.getWriter();
 			out.println("<html><head><title>회원등록결과</title></head>");
-			out.println("<meta http-equiv='Refresh' content='1;url=list'>");
+			out.println("<meta http-equiv='Refresh' content='0.5;url=list'>");
 			out.println("<body>");
 			out.println("<p>등록 성공입니다</p>");
 			out.println("</body></html>");

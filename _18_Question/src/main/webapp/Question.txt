@@ -1,0 +1,27 @@
+1. MemberAddServlt과 MemberListServlet도 컨텍스트 초기화 매개변수를 사용하는 것으로 변경하세요.
+
+2. MemberListServlet의 부모 클래스는 GenericServlet -> HttpServlet으로 교체하세요.
+   또한 service() -> doGet()으로 교체하세요.
+   
+3. 회원 정보를 삭제하는 서블릿을 만드세요.
+
+   삭제요청 url : /member/delete?no=삭제할 회원 mno
+   삭제 서블릿 : MemberDeleteServlet
+   
+4. /member/list 페이지에서 각 항목의 끝에 삭제 링크를 추가하세요.
+   링크를 클릭하면 회원 정보가 삭제됩니다.
+   그리고 다시 회원 목록페이지가 자동으로 갱신됩니다.
+   [참고코드]
+   <a href='delete?no=3'>[삭제]</a>
+
+	회원 목록
+	신규 회원
+	
+	1, 홍길동, s1@test.com, 2024-03-27[삭제]
+	2, 임꺽정, s2@test.com, 2024-03-27[삭제]
+	3, 장길산, s3@test.com, 2024-03-27[삭제]
+	...
+
+5. 회원 update 화면에서 삭제버튼을 추가하세요
+   이미지는 '버튼 추가.png' 참고
+ 
