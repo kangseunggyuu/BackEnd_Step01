@@ -3,11 +3,9 @@ package spms.controls;
 import java.util.Map;
 
 /* 현재 FrontController(DispatchServlet)-PageController(나머지 Servlet클래스)로
- * 구성되어 있지만, DisplayServlet을 제외한 나머지 Servlet클래스는 굳이 Servlet으로 만들
- * 필요가 없다.
+ * 구성되어 있지만, DisplayServlet을 제외한 나머지 Servlet클래스는 굳이 Servlet으로 만들 필요가 없다.
  * Servlet만들면 기능동작에는 문제가 없지만, 향후 다른 Framework에 이식할 때
- * 수정할 부분이 많아지므로, Servlet에 종속적이기보다, 일반 java클래스호 만드는 것이
- * 나은 선택이다.
+ * 수정할 부분이 많아지므로, Servlet에 종속적이기보다, 일반 java클래스로 만드는 것이 나은 선택이다.
  * 이러한 방식을 Pojo(Plain Old Java Object)라고 하고, 
  * Spring Framework 역시 이런 구조로 되어 있다.
  * 
