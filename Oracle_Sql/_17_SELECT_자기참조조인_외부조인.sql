@@ -86,3 +86,19 @@ SELECT d.dno, dname, eno, ename
  FROM emp e, dept d
  WHERE e.dno=d.dno(+)
  ORDER BY d.dno;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

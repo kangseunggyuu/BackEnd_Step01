@@ -102,8 +102,8 @@ SELECT e.eno, ename, d.dno, dname
 --사원이 아직 부서배정을 못받은 사원까지 출력
 
 SELECT e.eno, ename, d.dno, dname
- FROM emp e LEFT OUTER JOIN dept d 
- ON e.dno=d.dno;
+ FROM emp e
+ LEFT OUTER JOIN dept d ON e.dno=d.dno;
 
 --사원이 없는 부서 : POS
 --부서가 없는 사원 : 홍길동
@@ -125,3 +125,20 @@ SELECT e.eno, ename, d.dno, dname
 --FULL OUTER JOIN
 --LEFT OUTER JOIN
 --RIGHT OUTER JOIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

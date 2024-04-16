@@ -60,3 +60,14 @@ SELECT dno 부서번호, sal 급여, eno, ename
 SELECT dno 부서번호, sal 급여, eno, ename
  FROM emp
  ORDER BY dno, sal DESC;
+
+
+
+
+
+
+
+
+
+
+

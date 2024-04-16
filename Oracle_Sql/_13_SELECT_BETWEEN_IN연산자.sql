@@ -72,3 +72,4 @@ SELECT *
  FROM emp
  WHERE job IN ('개발', '회계')
  ORDER BY job;
+

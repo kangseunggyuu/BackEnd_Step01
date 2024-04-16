@@ -27,3 +27,8 @@ FROM student;
 --학생의 이름과 학과를 검색해라
 SELECT sno, sname, major
 FROM student;
+
+
+
+
+

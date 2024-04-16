@@ -134,3 +134,11 @@ SELECT dname, SUBSTR(dname, 1, LENGTH(dname)-1) dname
 SELECT TRANSLATE('World of Warcraft', 'Wo', '-*') Translate,    -- W는 -로, o는 *로 1글자씩 대응된다.
         REPLACE('World of Warcraft', 'Wo', '--') Replace        -- Wo라는 단어를 통째로 -- 로 바꾼다.
  FROM dual;
+
+
+
+
+
+
+
+

@@ -1,4 +1,3 @@
-
 --연결연산자와 중복제거
 
 --1) 사원의 이름을 급여 또는 업무와 함께 검색하세요
@@ -29,3 +28,8 @@ SELECT job
 
 SELECT DISTINCT job
  FROM emp;
+
+
+
+
+
